@@ -6,7 +6,7 @@ import numpy as np
 detector = FER()
 
 # Load the image
-image_path = '/images/kumar.jpeg'
+image_path = 'images/kumar.jpeg'
 image = cv2.imread(image_path)
 
 # Detect emotions in the image

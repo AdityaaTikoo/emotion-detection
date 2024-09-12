@@ -1,16 +1,21 @@
 # Getting Started
 
+## Requirements 
+- Download these using your package manager.
+1. python3
+2. pip3
+
 ## Setting up virtual environment 
 - Setting up a virtual environment is very important otherwise your program will not work properly.
 
 ```bash
 # Creating a virtual environment called env
 
-venv env
+python3 -m venv env
 
 # Activating that environment 
 
-source venv/bin/activate
+source env/bin/activate
 ```
 
 ## Requirements 
